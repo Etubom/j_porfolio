@@ -14,7 +14,7 @@ body {
   background: #333;
   color: #fff;
 }
-.site_nav ul {
+.site__nav__links {
   list-style: none;
   display: flex;
   margin: 0;
@@ -51,8 +51,12 @@ p {
 
 .project-wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .project-item {
   padding: 1rem;
+}
+.project-title {
+  text-align: center;
 }
