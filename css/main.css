@@ -48,6 +48,9 @@ h2,
 p {
   margin-top: 0;
 }
+.fab {
+  margin: 5px;
+}
 
 .project-wrapper {
   display: flex;
@@ -82,5 +85,5 @@ p {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #800080;
 }
