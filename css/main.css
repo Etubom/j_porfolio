@@ -87,3 +87,11 @@ p {
 #myBtn:hover {
   background-color: #800080;
 }
+
+.footer__section {
+  display: flex;
+  justify-content: end;
+}
+.footer__content {
+  margin-left: auto;
+}
