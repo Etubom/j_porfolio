@@ -33,6 +33,13 @@ body {
 .site__nav a:hover {
   background: #ccc;
 }
+.icons {
+  display: flex;
+}
+
+.icon__items {
+  list-style: none;
+}
 
 .section__intro {
   padding: 2rem;
