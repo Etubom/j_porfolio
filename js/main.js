@@ -16,3 +16,11 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+let showYear = document.querySelector("#year");
+let today = new Date();
+let year = today.getFullYear();
+console.log("year is", year);
+console.log("show year is", showYear);
+showYear.innerHTML = `${year}`;
+showYear.style.display = "inline";
