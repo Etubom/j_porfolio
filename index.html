@@ -1,121 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amiri"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Edem's site</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="site__container">
-        <header class="site__header">
-            <nav class="site__nav">
-                <ul class="site__nav__links">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
+      <header class="site__header">
+        <nav class="site__nav">
+          <ul class="site__nav__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="section__intro" id="intro">
+        <h1>Edem Young</h1>
+        <h2>Web Developer</h2>
+        <div class="icons">
+          <a href="https://twitter.com/youngeddi" target="_blank">
+            <li class="fab fa-twitter fa-2x"></li>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/edem-young-b5480943/"
+            target="_blank"
+          >
+            <li class="fab fa-linkedin fa-2x"></li>
+          </a>
+          <a href="https://github.com/etubom" target="_blank">
+            <li class="fab fa-github fa-2x"></li>
+          </a>
+        </div>
+        <p>To get better,i must keep practising.</p>
+      </section>
+      <section id="about">
+        <div class="section__title"><h2>About</h2></div>
+        <div class="section__content">
+          <p>
+            Hello my name is Edem Young and i would like to welcome you to my
+            site.I am 2nd career developer currently living within the london
+            (UK) area with my wife (who also loves coding).
+          </p>
+          <p>
+            After years of working in other fields,i finally took the plunge to
+            become a developer by packing in the day job and attending a
 
-                </ul>
-            </nav>
-        </header>
-        <section class="section__intro" id="intro">
-            <h1>Edem Young</h1>
-            <h2>Web Developer</h2>
-            <div class="icons">
+            <a href="https://constructorlabs.com/" target="_blank">bootcamp</a>
+            .You see i always loved seeing things built from idea to product and
+            was constantly in awe at how programmers went about problem solving.
+            Attending a bootcamp has without doubt been one of the biggest
+            challenges i have undertaken in recent time but i feel so lucky to
+            have been able to do it.
+          </p>
+          <p>
+            Am going to use this site to keep track of my side projects and
+            hopefully give potential employers more insight into me in general.
+          </p>
+        </div>
+      </section>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <section id="projects">
+        <div class="section__title">
+          <h2>Projects</h2>
+          <p>A few of my projects are shown below.</p>
+        </div>
 
-                <a href="https://twitter.com/youngeddi" target="_blank">
-                    <li class="fab fa-twitter fa-2x"></li>
-                </a>
-                <a href="https://www.linkedin.com/in/edem-young-b5480943/" target="_blank">
-                    <li class="fab fa-linkedin fa-2x"></li>
-                </a>
-                <a href="https://github.com/etubom" target="_blank">
-                    <li class="fab fa-github fa-2x"></li>
-                </a>
+        <div class="project-wrapper">
+          <div class="project-item">
+            <div class="project-title">Tea Cozy</div>
+            <a href="https://codepen.io/etubom/full/XPVVWR/" target="_blank">
+              <img
+                alt="static css site"
+                src="./img/TeaTable.jpg"
+                width="200px"
+                height="150px"
+              />
+            </a>
+          </div>
+          <div class="project-item">
+            <div class="project-title">Grid play</div>
+            <a href="https://codepen.io/etubom/full/qMrJev/" target="_blank">
+              <img
+                alt="static grid site"
+                src="./img/grid.jpg"
+                width="200px"
+                height="150px"
+              />
+            </a>
+          </div>
+          <div class="project-item">
+            <div class="project-title">Basic Reactjs MovieDB API search</div>
+            <a href="https://codesandbox.io/s/483v0jmq50" target="_blank">
+              <img
+                alt="Edit Movie Search Basic"
+                src="./img/MovieDB.jpg"
+                width="200px"
+                height="150px"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
 
-            </div>
-            <p>To get better,i must keep practising.</p>
-        </section>
-        <section id="about">
-            <div class="section__title">
-                <h2>About</h2>
-            </div>
-            <div class="section__content">
-                <p>
-                    Hello my name is Edem Young and i would like to welcome you to my site.I am 2nd career developer currently living within
-                    the london (UK) area with my wife (who also loves coding).
-                </p>
-                <p>
-                    After years of working in other fields,i finally took the plunge to become a developer by packing in the day job and attending
-                    a
-
-                    <a href="https://constructorlabs.com/" target="_blank">bootcamp</a>
-                    .You see i always loved seeing things built from idea to product and was constantly in awe at how programmers went about
-                    problem solving. Attending a bootcamp has without doubt been one of the biggest challenges i have undertaken
-                    in recent time but i feel so lucky to have been able to do it.
-
-                </p>
-                <p>
-                    Am going to use this site to keep track of my side projects and hopefully give potential employers more insight into me in
-                    general.
-                </p>
-            </div>
-        </section>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        <section id="projects">
-            <div class="section__title">
-                <h2>Projects</h2>
-                <p>A few of my projects are shown below.</p>
-            </div>
-
-            <div class="project-wrapper">
-
-
-                <div class="project-item">
-                    <div class="project-title">Tea Cozy</div>
-                    <a href="https://codepen.io/etubom/full/XPVVWR/" target="_blank">
-                        <img alt="static css site" src="./img/TeaTable.jpg" width="200px" height="150px">
-                    </a>
-                </div>
-                <div class="project-item">
-                    <div class="project-title">Grid play</div>
-                    <a href="https://codepen.io/etubom/full/qMrJev/" target="_blank">
-                        <img alt="static grid site" src="./img/grid.jpg" width="200px" height="150px">
-                    </a>
-                </div>
-                <div class="project-item">
-                    <div class="project-title">Basic Reactjs MovieDB API search</div>
-                    <a href="https://codesandbox.io/s/483v0jmq50" target="_blank">
-                        <img alt="Edit Movie Search Basic" src="./img/MovieDB.jpg" width="200px" height="150px">
-                    </a>
-
-
-                </div>
-
-            </div>
-        </section>
-
-        <footer class="footer__section">
-            <div class="footer__content">&copy;2018</div>
-
-        </footer>
+      <footer class="footer__section">
+        <div class="footer__content">&copy;<span id="year"></span></div>
+      </footer>
     </div>
 
-
-
     <script src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>
